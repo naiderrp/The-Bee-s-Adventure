@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{845E8A49-5FF4-CB46-8D82-C77977BDD487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\HelloWorld">
+      <UniqueIdentifier>{9C0FF024-D080-F541-9BD9-4A09D8FAAF1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\HelloWorld\main.cpp">
+      <Filter>examples\HelloWorld</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine\GameEntity\GameApplication.hpp" />
+    <ClInclude Include="GameEngine\GameEntity\GameObject.hpp" />
+    <ClInclude Include="GameEngine\GameEntity\PhysicsWorld.hpp" />
+    <ClInclude Include="GameEngine\GameEntity\Level.hpp" />
+    <ClInclude Include="GameEngine\GameEntity\CharacterMovementController.hpp" />
+    <ClInclude Include="GameEngine\Trap\DelayedDamageTrap.hpp" />
+    <ClInclude Include="GameEngine\Trap\SpinningTrap.hpp" />
+    <ClInclude Include="GameEngine\Trap\WindTrap.hpp" />
+    <ClInclude Include="GameEngine\Trap\DisappearingTrap.hpp" />
+    <ClInclude Include="GameEngine\Trap\TrampolineTrap.hpp" />
+    <ClInclude Include="GameEngine\GameEntity\Player.hpp" />
+    <ClInclude Include="GameEngine\GameEntity\HealthIndicator.hpp" />
+    <ClInclude Include="GameEngine\Trap\TexturedPlatform.hpp" />
+    <ClInclude Include="GameEngine\Trap\StaticTrap.hpp" />
+  </ItemGroup>
+</Project>
